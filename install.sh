@@ -9,6 +9,7 @@ echo "Finished setting up file upload to DB controller"
 
 echo "Now starting deployment of Cube JS Server"
 cd ../react-dashboard
+npm install -g cubejs-cli
 npm install
 node index.js &
 
