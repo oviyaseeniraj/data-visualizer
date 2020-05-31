@@ -6,10 +6,11 @@ Prerequisites:
 3. node is stalled on your MAC
 
 Setup & Installation
-1. mkdir data-visualizer
+1. mkdir project
 2. git clone https://github.com/oviyaseeniraj/data-visualizer.git
 
 Start the servers
+cd data-visualizer
 sh install.sh
 
 You will see the covid Dashboard on port 3000
