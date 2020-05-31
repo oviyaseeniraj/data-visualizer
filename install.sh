@@ -1,6 +1,7 @@
 curl http://cube.dev/downloads/ecom-dump.sql > ecom-dump.sql
 createdb ecom
 psql --dbname ecom -f ecom-dump.sql
+psql --dbname ecom -f covid.sql
 
 cd file-upload
 npm install
